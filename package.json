@@ -1,0 +1,24 @@
+{
+  "name": "graphQl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --trace-warnings src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.4",
+    "graphql": "^16.3.0",
+    "ifsc": "^2.0.6",
+    "mongoose": "^6.2.5",
+    "openweather-apis": "^4.4.2",
+    "superagent": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
